@@ -44,27 +44,47 @@
 }
 
 .descrip{
-    background-color: rgb(202, 165, 62);
+    background-color: rgb(32, 218, 202);
     padding: 20px;
     font-family: sans-serif;
     border-left: 5px solid rgb(182, 179, 179);
-
+    display: flex;
+    justify-content: space-around;
 }
 
 
 .text{
     margin-left: 30vw;
-    flex-direction: row;
+    align-items: baseline;
+    border: 3px solid red;
     
    
 }
 
-.text1{
-    margin-left: 20vw;
+
+.text h3{
+    margin: 30px;
+    text-align: left;
+}
+
+.text p{
+    background-color: antiquewhite;
+    color: blueviolet;
+    padding:0;
 
 }
 
+.descrip img{
+    height: 350px;
+    width: 350px;
+    margin: 1vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+
+}
 .descrip p{
+    
     margin-top: 0px;
     font-family: serif;
     font-size: 20px;
@@ -72,10 +92,73 @@
     padding-top: 200px;
 }
 .productos{
-    background-color: brown;
-    background: red;
+    border: 3px solid rgb(230, 21, 21);
+    background-color: rgb(68, 231, 28);
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    
+    flex-direction: row; 
+
+
 }
-.staff{
-    border: 3 solid blue;
+
+.articulo{
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 30px;
+    text-align: center;
+    
+    flex-direction: column;
+    
+    
+}
+
+
+.articulo p{
+    text-align: justify;
+    padding: 50px;
+    font-size: 15px;
+ }
+.productos img{
+    height: 300px;
+    width: 200px;
+    margin: 1vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+
+.staff{
+    border: 3px solid rgb(196, 105, 30);
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.perfil{
+    background-color: brown;
+    margin: 20px;
+
+    text-align: center;
+}
+
+.perfil img{
+    
+    height: 150px;
+    width: 150px;
+    margin: 1vw;
+    border-radius: 200px;
 }
